@@ -86,9 +86,9 @@ export default function Home() {
           </div>
 
           <div className="lang-toggle-box">
-            <span className="lang-active">EN</span>
-            <span className="lang-inactive" title="Hindi & Punjabi localization coming in future release">HI</span>
-            <span className="lang-inactive" title="Punjabi localization coming in future release">PA</span>
+            <button type="button" className="lang-btn lang-active" aria-label="English">EN</button>
+            <button type="button" className="lang-btn lang-disabled" disabled title="Coming soon">HI</button>
+            <button type="button" className="lang-btn lang-disabled" disabled title="Coming soon">PA</button>
           </div>
         </div>
       </header>

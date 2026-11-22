@@ -3,7 +3,7 @@
     "id": "ACT-01",
     "rank": 1,
     "title": "DSR (Direct Seeded Rice) or Crop Diversification to Maize/Moong",
-    "why": "Paddy flooded basins consume ~1,200 mm water. Switching 15-25% of acreage to DSR or Maize cuts water demand by 40-50% while protecting farm income.",
+    "why": "Alternative crops and direct seeded methods have lower seasonal evapotranspiration compared to conventionally puddled transplanted paddy. Exact savings depend on field trial verification.",
     "expected_water_effect_ml": {
       "low": 120.0,
       "mid": 210.0,
@@ -12,16 +12,16 @@
     },
     "cost_level": "low",
     "source": {
-      "name": "Punjab Agricultural University (PAU) Crop Diversification Advisory",
-      "url": "https://www.pau.edu",
+      "name": "Placeholder, awaiting expert review",
+      "url": "https://indiawris.gov.in",
       "downloaded_on": "2026-08-01",
       "is_sample": true
     },
     "confidence": {
-      "level": "high",
+      "level": "low",
       "wells_used": 6,
       "last_reading_date": "2026-08-15",
-      "reasons": ["Validated across Punjab pilot agro-climatic zones", "Empirical field trial records"]
+      "reasons": ["Placeholder agronomic rule, awaiting expert review", "Local trial verification pending"]
     }
   },
   {
@@ -37,16 +37,16 @@
     },
     "cost_level": "medium",
     "source": {
-      "name": "Mission Amrit Sarovar & CGWB Master Plan for Artificial Recharge",
+      "name": "Placeholder, awaiting expert review",
       "url": "https://cgwb.gov.in",
       "downloaded_on": "2026-05-10",
       "is_sample": true
     },
     "confidence": {
-      "level": "medium",
+      "level": "low",
       "wells_used": 4,
       "last_reading_date": "2026-05-20",
-      "reasons": ["Soil infiltration rate varies across silt-clay layers", "Estimated from standard pond dimensions"]
+      "reasons": ["Placeholder infiltration rule, awaiting expert review", "Site-specific lithology pending"]
     }
   },
   {
@@ -62,16 +62,16 @@
     },
     "cost_level": "high",
     "source": {
-      "name": "Pradhan Mantri Krishi Sinchayee Yojana (PMKSY) Per Drop More Crop",
+      "name": "Placeholder, awaiting expert review",
       "url": "https://pmksy.gov.in",
       "downloaded_on": "2026-06-15",
       "is_sample": true
     },
     "confidence": {
-      "level": "medium",
+      "level": "low",
       "wells_used": 5,
       "last_reading_date": "2026-08-12",
-      "reasons": ["Requires capital subsidy and regular maintenance", "High adoption threshold without subsidy"]
+      "reasons": ["Placeholder technical rule, awaiting expert review", "Subsidy and maintenance dependencies unverified"]
     }
   }
 ]

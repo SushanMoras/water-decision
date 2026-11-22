@@ -11,7 +11,7 @@
         "unit": "INR"
       },
       "needs_review": true,
-      "source": "placeholder - replace with FAO-56 and PAU agronomy guidelines",
+      "source": "Placeholder, awaiting expert review",
       "reviewed_by": null
     },
     "maize": {
@@ -25,7 +25,7 @@
         "unit": "INR"
       },
       "needs_review": true,
-      "source": "placeholder - replace with PAU Ludhiana crop diversification guide",
+      "source": "Placeholder, awaiting expert review",
       "reviewed_by": null
     },
     "cotton": {
@@ -39,7 +39,7 @@
         "unit": "INR"
       },
       "needs_review": true,
-      "source": "placeholder - ICAR Central Institute for Cotton Research",
+      "source": "Placeholder, awaiting expert review",
       "reviewed_by": null
     },
     "moong": {
@@ -53,7 +53,7 @@
         "unit": "INR"
       },
       "needs_review": true,
-      "source": "placeholder - Pulses Development Board",
+      "source": "Placeholder, awaiting expert review",
       "reviewed_by": null
     },
     "wheat": {
@@ -67,7 +67,7 @@
         "unit": "INR"
       },
       "needs_review": true,
-      "source": "placeholder - PAU Rabi Recommendations",
+      "source": "Placeholder, awaiting expert review",
       "reviewed_by": null
     },
     "mustard": {
@@ -81,7 +81,7 @@
         "unit": "INR"
       },
       "needs_review": true,
-      "source": "placeholder - Directorate of Rapeseed-Mustard Research",
+      "source": "Placeholder, awaiting expert review",
       "reviewed_by": null
     }
   },
@@ -89,6 +89,6 @@
   "livestock_lpcd": 50.0,
   "recharge_factor": 0.12,
   "needs_review": true,
-  "source": "FAO-56 Irrigation and Drainage Paper & CGWB GEC-2015 norm placeholder",
+  "source": "Placeholder, awaiting expert review",
   "reviewed_by": null
 }

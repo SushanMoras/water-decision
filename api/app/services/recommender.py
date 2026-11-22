@@ -11,7 +11,6 @@ from app.schemas import (
 )
 from app.loaders.real_loader import get_loader
 from app.services.water_balance import calculate_water_balance, load_crop_rules
-from app.services.confidence import evaluate_confidence
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 ACTIONS_PATH = os.path.join(BASE_DIR, "rules", "actions.json")
@@ -88,25 +87,22 @@ def run_scenario(req: ScenarioRequest) -> ScenarioResponse:
     notes = [
         f"Shift of {req.shift_percent}% ({shifted_area_ha:.1f} ha) from {req.from_crop} to {req.to_crop}.",
         f"Consumptive irrigation gap: {from_kc:.0f} mm vs {to_kc:.0f} mm per season.",
-        "Margin calculations assume local mandi MSP and typical operational cultivation costs (subject to agronomic review)."
+        "Margin calculations assume placeholder mandi MSP and cultivation costs, awaiting expert review."
     ]
     
+    # Placeholder rules require low confidence
     conf_data = village.get("confidence", {})
-    conf = evaluate_confidence(
+    conf = Confidence(
+        level="low",
         wells_used=conf_data.get("wells_used", 5),
-        last_reading_date=conf_data.get("last_reading_date", "2026-08-15")
+        last_reading_date=conf_data.get("last_reading_date", "2026-08-15"),
+        reasons=["Scenario model relies on placeholder crop rules awaiting expert review"]
     )
     
     sources = [
         Source(
-            name="FAO-56 Irrigation and Drainage Paper",
-            url="https://www.fao.org/land-water/databases-and-software/cropwat",
-            downloaded_on="2026-08-01",
-            is_sample=village.get("is_sample", True)
-        ),
-        Source(
-            name="Punjab Agricultural University Agronomy Package of Practices",
-            url="https://www.pau.edu",
+            name="Placeholder, awaiting expert review",
+            url="https://indiawris.gov.in",
             downloaded_on="2026-08-01",
             is_sample=village.get("is_sample", True)
         )

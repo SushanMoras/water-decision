@@ -47,17 +47,19 @@ export default function VillagePanel({ village, cropsMeta }) {
   }
 
   const stressColorClass = `badge-stress-${village.stress_class}`;
+  const totalAreaText = village.area_ha != null ? `${village.area_ha} ha` : "Not available";
+  const populationText = village.population != null ? Number(village.population).toLocaleString() : "Not available";
 
   return (
     <div className="village-panel-card">
       <div className="village-panel-header">
         <div className="header-info">
-          <h2>{village.name}</h2>
+          <h2 className="village-name-title">{village.name}</h2>
           <div className="village-meta-row">
-            <span>District: <strong>{village.district}</strong></span>
-            <span>Block: <strong>{village.block}</strong></span>
-            <span>Population: <strong>{village.population?.toLocaleString() || 'N/A'}</strong></span>
-            <span>Total Area: <strong>{village.area_ha} ha</strong></span>
+            <span>District: <strong>{village.district || "Not available"}</strong></span>
+            <span>Block: <strong>{village.block || "Not available"}</strong></span>
+            <span>Population: <strong>{populationText}</strong></span>
+            <span>Total Area: <strong>{totalAreaText}</strong></span>
           </div>
         </div>
 
