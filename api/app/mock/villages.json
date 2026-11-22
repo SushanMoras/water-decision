@@ -1,0 +1,242 @@
+[
+  {
+    "id": "VIL-PB-SAN-001",
+    "name": "Sample Village 01 (Bhawanigarh)",
+    "block": "Bhawanigarh",
+    "district": "Sangrur",
+    "lat": 30.245,
+    "lon": 75.987,
+    "stress_class": "critical",
+    "stress_score": {"low": 78.0, "mid": 85.0, "high": 92.0, "unit": "%"},
+    "population": 2800,
+    "area_ha": 650.0,
+    "crop_area_ha": {"paddy": 420.0, "wheat": 410.0, "maize": 40.0, "cotton": 30.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 6,
+      "last_reading_date": "2026-08-15",
+      "reasons": ["6 observation wells within 8 km", "Continuous quarterly records since 2012"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-002",
+    "name": "Sample Village 02 (Sunam)",
+    "block": "Sunam",
+    "district": "Sangrur",
+    "lat": 30.128,
+    "lon": 75.801,
+    "stress_class": "critical",
+    "stress_score": {"low": 82.0, "mid": 89.0, "high": 95.0, "unit": "%"},
+    "population": 3400,
+    "area_ha": 780.0,
+    "crop_area_ha": {"paddy": 550.0, "wheat": 530.0, "maize": 25.0, "sugarcane": 15.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 5,
+      "last_reading_date": "2026-08-12",
+      "reasons": ["5 observation wells within 7 km", "Consistent seasonal decline pattern"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-003",
+    "name": "Sample Village 03 (Dhuri)",
+    "block": "Dhuri",
+    "district": "Sangrur",
+    "lat": 30.368,
+    "lon": 75.867,
+    "stress_class": "stressed",
+    "stress_score": {"low": 65.0, "mid": 72.0, "high": 79.0, "unit": "%"},
+    "population": 2100,
+    "area_ha": 520.0,
+    "crop_area_ha": {"paddy": 300.0, "wheat": 310.0, "maize": 50.0, "vegetables": 35.0},
+    "confidence": {
+      "level": "medium",
+      "wells_used": 3,
+      "last_reading_date": "2026-05-20",
+      "reasons": ["3 observation wells within 12 km"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-004",
+    "name": "Sample Village 04 (Lehragaga)",
+    "block": "Lehragaga",
+    "district": "Sangrur",
+    "lat": 29.932,
+    "lon": 75.823,
+    "stress_class": "critical",
+    "stress_score": {"low": 80.0, "mid": 88.0, "high": 94.0, "unit": "%"},
+    "population": 3100,
+    "area_ha": 810.0,
+    "crop_area_ha": {"paddy": 580.0, "wheat": 560.0, "cotton": 60.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 7,
+      "last_reading_date": "2026-08-14",
+      "reasons": ["7 observation wells within 10 km"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-005",
+    "name": "Sample Village 05 (Malerkotla Border)",
+    "block": "Dhuri",
+    "district": "Sangrur",
+    "lat": 30.412,
+    "lon": 75.912,
+    "stress_class": "watch",
+    "stress_score": {"low": 42.0, "mid": 51.0, "high": 60.0, "unit": "%"},
+    "population": 1600,
+    "area_ha": 410.0,
+    "crop_area_ha": {"paddy": 180.0, "wheat": 220.0, "vegetables": 70.0, "maize": 40.0},
+    "confidence": {
+      "level": "medium",
+      "wells_used": 3,
+      "last_reading_date": "2026-05-18",
+      "reasons": ["3 observation wells active"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-006",
+    "name": "Sample Village 06 (Sangrur Central)",
+    "block": "Sangrur",
+    "district": "Sangrur",
+    "lat": 30.252,
+    "lon": 75.845,
+    "stress_class": "critical",
+    "stress_score": {"low": 85.0, "mid": 91.0, "high": 96.0, "unit": "%"},
+    "population": 4200,
+    "area_ha": 950.0,
+    "crop_area_ha": {"paddy": 690.0, "wheat": 680.0, "maize": 30.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 8,
+      "last_reading_date": "2026-08-16",
+      "reasons": ["8 observation wells within 5 km radius"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-007",
+    "name": "Sample Village 07 (Dirba East)",
+    "block": "Dirba",
+    "district": "Sangrur",
+    "lat": 30.065,
+    "lon": 75.992,
+    "stress_class": "stressed",
+    "stress_score": {"low": 68.0, "mid": 75.0, "high": 83.0, "unit": "%"},
+    "population": 2500,
+    "area_ha": 620.0,
+    "crop_area_ha": {"paddy": 410.0, "wheat": 430.0, "mustard": 30.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 5,
+      "last_reading_date": "2026-08-11",
+      "reasons": ["5 observation wells within 9 km"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-008",
+    "name": "Sample Village 08 (Sherpur Canal)",
+    "block": "Sherpur",
+    "district": "Sangrur",
+    "lat": 30.345,
+    "lon": 75.723,
+    "stress_class": "watch",
+    "stress_score": {"low": 35.0, "mid": 45.0, "high": 54.0, "unit": "%"},
+    "population": 1900,
+    "area_ha": 490.0,
+    "crop_area_ha": {"paddy": 220.0, "wheat": 260.0, "cotton": 50.0, "fodder": 40.0},
+    "confidence": {
+      "level": "medium",
+      "wells_used": 4,
+      "last_reading_date": "2026-05-15",
+      "reasons": ["Canal distributary influence; 4 observation wells"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-009",
+    "name": "Sample Village 09 (Munak South)",
+    "block": "Moonak",
+    "district": "Sangrur",
+    "lat": 29.818,
+    "lon": 75.894,
+    "stress_class": "critical",
+    "stress_score": {"low": 76.0, "mid": 84.0, "high": 90.0, "unit": "%"},
+    "population": 2900,
+    "area_ha": 730.0,
+    "crop_area_ha": {"paddy": 510.0, "wheat": 500.0, "cotton": 40.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 5,
+      "last_reading_date": "2026-08-10",
+      "reasons": ["5 observation wells monitored quarterly"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-010",
+    "name": "Sample Village 10 (Ghaggar Basin)",
+    "block": "Moonak",
+    "district": "Sangrur",
+    "lat": 29.852,
+    "lon": 75.962,
+    "stress_class": "safe",
+    "stress_score": {"low": 18.0, "mid": 25.0, "high": 33.0, "unit": "%"},
+    "population": 1400,
+    "area_ha": 380.0,
+    "crop_area_ha": {"paddy": 150.0, "wheat": 180.0, "vegetables": 60.0, "fodder": 40.0},
+    "confidence": {
+      "level": "medium",
+      "wells_used": 3,
+      "last_reading_date": "2026-08-10",
+      "reasons": ["Riverbed flood recharge zone; 3 observation wells"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-011",
+    "name": "Sample Village 11 (Longowal North)",
+    "block": "Sunam",
+    "district": "Sangrur",
+    "lat": 30.203,
+    "lon": 75.682,
+    "stress_class": "critical",
+    "stress_score": {"low": 83.0, "mid": 90.0, "high": 95.0, "unit": "%"},
+    "population": 3800,
+    "area_ha": 890.0,
+    "crop_area_ha": {"paddy": 640.0, "wheat": 630.0, "mustard": 30.0},
+    "confidence": {
+      "level": "high",
+      "wells_used": 6,
+      "last_reading_date": "2026-08-13",
+      "reasons": ["6 observation wells; deep tube-well extraction high"]
+    },
+    "is_sample": true
+  },
+  {
+    "id": "VIL-PB-SAN-012",
+    "name": "Sample Village 12 (Amargarh Road)",
+    "block": "Bhawanigarh",
+    "district": "Sangrur",
+    "lat": 30.312,
+    "lon": 76.042,
+    "stress_class": "stressed",
+    "stress_score": {"low": 62.0, "mid": 71.0, "high": 78.0, "unit": "%"},
+    "population": 2200,
+    "area_ha": 560.0,
+    "crop_area_ha": {"paddy": 360.0, "wheat": 380.0, "maize": 40.0},
+    "confidence": {
+      "level": "medium",
+      "wells_used": 4,
+      "last_reading_date": "2026-05-19",
+      "reasons": ["4 observation wells active"]
+    },
+    "is_sample": true
+  }
+]

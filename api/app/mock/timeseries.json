@@ -1,0 +1,2426 @@
+{
+  "VIL-PB-SAN-001": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 28.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 30.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 27.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 28.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 29.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 31.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 27.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 28.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 31.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 34.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 30.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 31.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 30.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 32.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 28.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 29.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 30.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 33.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 29.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 30.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 31.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 33.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 30.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 30.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 30.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 32.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 28.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 29.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 32.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 34.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 31.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 32.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 32.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 31.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 32.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 33.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 32.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 33.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-002": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 32.0,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 34.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 30.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 31.7,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 32.55,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 34.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 31.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 32.25,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 35.3,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 37.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 34.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 35.0,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 33.65,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 35.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 32.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 33.35,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 34.2,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 36.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 33.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 33.9,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 34.75,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 37.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 33.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 34.45,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 33.5,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 35.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 32.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 33.2,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 35.85,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 38.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 34.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 35.55,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 36.4,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 36.1,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 36.95,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 36.65,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-003": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 35.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 37.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 34.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 36.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 38.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 34.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 38.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 41.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 37.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 38.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 37.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 39.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 35.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 36.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 37.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 40.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 36.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 37.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 38.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 40.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 37.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 37.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 37.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 39.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 35.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 36.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 39.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 41.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 38.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 39.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 39.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 42.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 39.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 40.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 42.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 40.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-004": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 39.0,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 41.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 37.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 39.55,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 41.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 38.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 42.3,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 44.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 41.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 42.0,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 40.65,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 42.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 39.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 40.35,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 41.2,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 43.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 40.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 40.9,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 41.75,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 44.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 40.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 41.45,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 40.5,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 42.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 39.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 40.2,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 42.85,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 45.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 41.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 42.55,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 43.4,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 45.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 42.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 43.1,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 43.95,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 46.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 42.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 43.65,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-005": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 42.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 44.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 41.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 42.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 43.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 45.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 41.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 42.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 45.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 48.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 44.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 45.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 44.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 46.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 42.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 43.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 44.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 47.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 43.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 44.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 45.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 47.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 44.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 44.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 44.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 46.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 42.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 43.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 46.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 48.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 45.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 46.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 46.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 49.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 45.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 46.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 47.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 49.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 46.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 47.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-006": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 28.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 30.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 27.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 28.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 29.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 31.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 27.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 28.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 31.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 34.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 30.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 31.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 30.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 32.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 28.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 29.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 30.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 33.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 29.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 30.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 31.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 33.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 30.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 30.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 30.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 32.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 28.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 29.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 32.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 34.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 31.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 32.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 32.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 31.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 32.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 33.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 32.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 33.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-007": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 32.0,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 34.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 30.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 31.7,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 32.55,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 34.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 31.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 32.25,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 35.3,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 37.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 34.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 35.0,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 33.65,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 35.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 32.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 33.35,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 34.2,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 36.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 33.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 33.9,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 34.75,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 37.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 33.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 34.45,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 33.5,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 35.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 32.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 33.2,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 35.85,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 38.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 34.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 35.55,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 36.4,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 36.1,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 36.95,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 36.65,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-008": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 35.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 37.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 34.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 36.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 38.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 34.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 38.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 41.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 37.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 38.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 37.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 39.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 35.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 36.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 37.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 40.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 36.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 37.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 38.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 40.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 37.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 37.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 37.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 39.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 35.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 36.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 39.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 41.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 38.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 39.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 39.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 42.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 39.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 40.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 42.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 40.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-009": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 39.0,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 41.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 37.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 39.55,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 41.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 38.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 42.3,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 44.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 41.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 42.0,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 40.65,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 42.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 39.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 40.35,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 41.2,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 43.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 40.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 40.9,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 41.75,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 44.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 40.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 41.45,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 40.5,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 42.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 39.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 40.2,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 42.85,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 45.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 41.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 42.55,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 43.4,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 45.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 42.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 43.1,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 43.95,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 46.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 42.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 43.65,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-010": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 42.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 44.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 41.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 42.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 43.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 45.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 41.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 42.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 45.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 48.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 44.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 45.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 44.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 46.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 42.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 43.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 44.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 47.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 43.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 44.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 45.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 47.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 44.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 44.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 44.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 46.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 42.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 43.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 46.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 48.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 45.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 46.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 46.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 49.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 45.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 46.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 47.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 49.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 46.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 47.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-011": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 28.5,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 30.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 27.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 28.2,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 29.05,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 31.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 27.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 28.75,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 31.8,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 34.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 30.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 31.5,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 30.15,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 32.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 28.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 29.85,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 30.7,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 33.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 29.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 30.4,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 31.25,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 33.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 30.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 30.95,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 30.0,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 32.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 28.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 29.7,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 32.35,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 34.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 31.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 32.05,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 32.9,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 31.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 32.6,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 33.45,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 32.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 33.15,
+      "is_sample": true
+    }
+  ],
+  "VIL-PB-SAN-012": [
+    {
+      "date": "2017-01-20",
+      "level_bgl_m": 32.0,
+      "is_sample": true
+    },
+    {
+      "date": "2017-05-25",
+      "level_bgl_m": 34.3,
+      "is_sample": true
+    },
+    {
+      "date": "2017-08-20",
+      "level_bgl_m": 30.8,
+      "is_sample": true
+    },
+    {
+      "date": "2017-11-15",
+      "level_bgl_m": 31.7,
+      "is_sample": true
+    },
+    {
+      "date": "2018-01-20",
+      "level_bgl_m": 32.55,
+      "is_sample": true
+    },
+    {
+      "date": "2018-05-25",
+      "level_bgl_m": 34.85,
+      "is_sample": true
+    },
+    {
+      "date": "2018-08-20",
+      "level_bgl_m": 31.35,
+      "is_sample": true
+    },
+    {
+      "date": "2018-11-15",
+      "level_bgl_m": 32.25,
+      "is_sample": true
+    },
+    {
+      "date": "2019-01-20",
+      "level_bgl_m": 35.3,
+      "is_sample": true
+    },
+    {
+      "date": "2019-05-25",
+      "level_bgl_m": 37.6,
+      "is_sample": true
+    },
+    {
+      "date": "2019-08-20",
+      "level_bgl_m": 34.1,
+      "is_sample": true
+    },
+    {
+      "date": "2019-11-15",
+      "level_bgl_m": 35.0,
+      "is_sample": true
+    },
+    {
+      "date": "2020-01-20",
+      "level_bgl_m": 33.65,
+      "is_sample": true
+    },
+    {
+      "date": "2020-05-25",
+      "level_bgl_m": 35.95,
+      "is_sample": true
+    },
+    {
+      "date": "2020-08-20",
+      "level_bgl_m": 32.45,
+      "is_sample": true
+    },
+    {
+      "date": "2020-11-15",
+      "level_bgl_m": 33.35,
+      "is_sample": true
+    },
+    {
+      "date": "2021-01-20",
+      "level_bgl_m": 34.2,
+      "is_sample": true
+    },
+    {
+      "date": "2021-05-25",
+      "level_bgl_m": 36.5,
+      "is_sample": true
+    },
+    {
+      "date": "2021-08-20",
+      "level_bgl_m": 33.0,
+      "is_sample": true
+    },
+    {
+      "date": "2021-11-15",
+      "level_bgl_m": 33.9,
+      "is_sample": true
+    },
+    {
+      "date": "2022-01-20",
+      "level_bgl_m": 34.75,
+      "is_sample": true
+    },
+    {
+      "date": "2022-05-25",
+      "level_bgl_m": 37.05,
+      "is_sample": true
+    },
+    {
+      "date": "2022-08-20",
+      "level_bgl_m": 33.55,
+      "is_sample": true
+    },
+    {
+      "date": "2022-11-15",
+      "level_bgl_m": 34.45,
+      "is_sample": true
+    },
+    {
+      "date": "2023-01-20",
+      "level_bgl_m": 33.5,
+      "is_sample": true
+    },
+    {
+      "date": "2023-05-25",
+      "level_bgl_m": 35.8,
+      "is_sample": true
+    },
+    {
+      "date": "2023-08-20",
+      "level_bgl_m": 32.3,
+      "is_sample": true
+    },
+    {
+      "date": "2023-11-15",
+      "level_bgl_m": 33.2,
+      "is_sample": true
+    },
+    {
+      "date": "2024-01-20",
+      "level_bgl_m": 35.85,
+      "is_sample": true
+    },
+    {
+      "date": "2024-05-25",
+      "level_bgl_m": 38.15,
+      "is_sample": true
+    },
+    {
+      "date": "2024-08-20",
+      "level_bgl_m": 34.65,
+      "is_sample": true
+    },
+    {
+      "date": "2024-11-15",
+      "level_bgl_m": 35.55,
+      "is_sample": true
+    },
+    {
+      "date": "2025-01-20",
+      "level_bgl_m": 36.4,
+      "is_sample": true
+    },
+    {
+      "date": "2025-05-25",
+      "level_bgl_m": 38.7,
+      "is_sample": true
+    },
+    {
+      "date": "2025-08-20",
+      "level_bgl_m": 35.2,
+      "is_sample": true
+    },
+    {
+      "date": "2025-11-15",
+      "level_bgl_m": 36.1,
+      "is_sample": true
+    },
+    {
+      "date": "2026-01-20",
+      "level_bgl_m": 36.95,
+      "is_sample": true
+    },
+    {
+      "date": "2026-05-25",
+      "level_bgl_m": 39.25,
+      "is_sample": true
+    },
+    {
+      "date": "2026-08-20",
+      "level_bgl_m": 35.75,
+      "is_sample": true
+    },
+    {
+      "date": "2026-11-15",
+      "level_bgl_m": 36.65,
+      "is_sample": true
+    }
+  ]
+}

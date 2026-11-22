@@ -1,0 +1,94 @@
+{
+  "crops": {
+    "paddy": {
+      "name": "Paddy (Kharif Rice)",
+      "season": "kharif",
+      "kc_season_total_mm": 1200.0,
+      "margin_inr_per_ha": {
+        "low": 40000.0,
+        "mid": 55000.0,
+        "high": 70000.0,
+        "unit": "INR"
+      },
+      "needs_review": true,
+      "source": "placeholder - replace with FAO-56 and PAU agronomy guidelines",
+      "reviewed_by": null
+    },
+    "maize": {
+      "name": "Maize (Kharif Corn)",
+      "season": "kharif",
+      "kc_season_total_mm": 550.0,
+      "margin_inr_per_ha": {
+        "low": 30000.0,
+        "mid": 42000.0,
+        "high": 55000.0,
+        "unit": "INR"
+      },
+      "needs_review": true,
+      "source": "placeholder - replace with PAU Ludhiana crop diversification guide",
+      "reviewed_by": null
+    },
+    "cotton": {
+      "name": "Bt Cotton",
+      "season": "kharif",
+      "kc_season_total_mm": 700.0,
+      "margin_inr_per_ha": {
+        "low": 35000.0,
+        "mid": 48000.0,
+        "high": 62000.0,
+        "unit": "INR"
+      },
+      "needs_review": true,
+      "source": "placeholder - ICAR Central Institute for Cotton Research",
+      "reviewed_by": null
+    },
+    "moong": {
+      "name": "Summer/Kharif Moong (Green Gram)",
+      "season": "kharif",
+      "kc_season_total_mm": 350.0,
+      "margin_inr_per_ha": {
+        "low": 25000.0,
+        "mid": 35000.0,
+        "high": 48000.0,
+        "unit": "INR"
+      },
+      "needs_review": true,
+      "source": "placeholder - Pulses Development Board",
+      "reviewed_by": null
+    },
+    "wheat": {
+      "name": "Wheat (Rabi)",
+      "season": "rabi",
+      "kc_season_total_mm": 450.0,
+      "margin_inr_per_ha": {
+        "low": 38000.0,
+        "mid": 50000.0,
+        "high": 62000.0,
+        "unit": "INR"
+      },
+      "needs_review": true,
+      "source": "placeholder - PAU Rabi Recommendations",
+      "reviewed_by": null
+    },
+    "mustard": {
+      "name": "Mustard / Rapeseed (Rabi)",
+      "season": "rabi",
+      "kc_season_total_mm": 300.0,
+      "margin_inr_per_ha": {
+        "low": 32000.0,
+        "mid": 44000.0,
+        "high": 58000.0,
+        "unit": "INR"
+      },
+      "needs_review": true,
+      "source": "placeholder - Directorate of Rapeseed-Mustard Research",
+      "reviewed_by": null
+    }
+  },
+  "domestic_lpcd": 70.0,
+  "livestock_lpcd": 50.0,
+  "recharge_factor": 0.12,
+  "needs_review": true,
+  "source": "FAO-56 Irrigation and Drainage Paper & CGWB GEC-2015 norm placeholder",
+  "reviewed_by": null
+}
