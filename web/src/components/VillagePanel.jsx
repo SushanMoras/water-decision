@@ -40,8 +40,7 @@ export default function VillagePanel({ village, cropsMeta }) {
   if (!village) {
     return (
       <div className="village-panel-empty">
-        <div className="empty-icon">📍</div>
-        <h3>Select a Village to Inspect</h3>
+        <div className="empty-label">Select a Village to Inspect</div>
         <p>Click any colored marker on the district map to analyze groundwater drawdown, seasonal water balances, and simulate diversification scenarios.</p>
       </div>
     );
@@ -53,7 +52,7 @@ export default function VillagePanel({ village, cropsMeta }) {
 
   const topAction = actions.length > 0 ? actions[0] : null;
   const balanceRangeText = forecast?.balance_ml 
-    ? `[${forecast.balance_ml.low > 0 ? "+" : ""}${forecast.balance_ml.low} to ${forecast.balance_ml.high > 0 ? "+" : ""}${forecast.balance_ml.high} ML]`
+    ? `[${forecast.balance_ml.low > 0 ? "+" : ""}${Math.round(forecast.balance_ml.low)} to ${forecast.balance_ml.high > 0 ? "+" : ""}${Math.round(forecast.balance_ml.high)} ML]`
     : "computing...";
   const topActionTitle = topAction ? topAction.title : "Community managed aquifer recharge & micro-irrigation";
 
@@ -85,7 +84,7 @@ export default function VillagePanel({ village, cropsMeta }) {
         <div className="header-actions">
           <div className="badge-row">
             <span className={`stress-class-pill ${stressColorClass}`}>
-              {village.stress_class.toUpperCase()} STRESS ({village.stress_score?.mid}%)
+              {village.stress_class.toUpperCase()} STRESS ({Math.round(village.stress_score?.mid || 0)}%)
             </span>
             <ConfidenceBadge confidence={village.confidence} />
           </div>
@@ -97,7 +96,7 @@ export default function VillagePanel({ village, cropsMeta }) {
       </div>
 
       {loading && <div className="panel-loading-state">Refreshing observation datasets...</div>}
-      {error && <div className="panel-error-state">⚠️ Error: {error}</div>}
+      {error && <div className="panel-error-state">Error: {error}</div>}
 
       {!loading && !error && (
         <div className="panel-tabs-section">
@@ -106,19 +105,19 @@ export default function VillagePanel({ village, cropsMeta }) {
               className={`tab-btn ${activeTab === 'forecast' ? 'active' : ''}`}
               onClick={() => setActiveTab('forecast')}
             >
-              📊 Forecast & Water Balance
+              Forecast & Water Balance
             </button>
             <button 
               className={`tab-btn ${activeTab === 'whatif' ? 'active' : ''}`}
               onClick={() => setActiveTab('whatif')}
             >
-              🌾 What-If Crop Scenario
+              What-If Crop Scenario
             </button>
             <button 
               className={`tab-btn ${activeTab === 'actions' ? 'active' : ''}`}
               onClick={() => setActiveTab('actions')}
             >
-              🛠️ Priority Interventions ({actions.length})
+              Priority Interventions ({actions.length})
             </button>
           </div>
 
@@ -135,18 +134,18 @@ export default function VillagePanel({ village, cropsMeta }) {
                       </div>
                       <div className="summary-card">
                         <span className="card-label">Seasonal Supply</span>
-                        <span className="card-val">{forecast.supply_ml?.mid} ML</span>
+                        <span className="card-val">{Math.round(forecast.supply_ml?.mid || 0)} ML</span>
                         <span className="card-sub">Rain recharge + return flow</span>
                       </div>
                       <div className="summary-card">
                         <span className="card-label">Seasonal Demand</span>
-                        <span className="card-val">{forecast.demand_ml?.mid} ML</span>
+                        <span className="card-val">{Math.round(forecast.demand_ml?.mid || 0)} ML</span>
                         <span className="card-sub">Crop + domestic + livestock</span>
                       </div>
                       <div className="summary-card" style={{ borderColor: forecast.balance_ml?.mid < 0 ? '#ff3b30' : '#34c759' }}>
                         <span className="card-label">Net Water Balance</span>
                         <span className="card-val" style={{ color: forecast.balance_ml?.mid < 0 ? 'var(--stress-critical)' : 'var(--stress-safe)' }}>
-                          {forecast.balance_ml?.mid > 0 ? "+" : ""}{forecast.balance_ml?.mid} ML
+                          {forecast.balance_ml?.mid > 0 ? "+" : ""}{Math.round(forecast.balance_ml?.mid || 0)} ML
                         </span>
                         <span className="card-sub">
                           {forecast.balance_ml?.mid < 0 ? "Depleting overdraft" : "Sustainable buffer"}

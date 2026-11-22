@@ -4,12 +4,12 @@ export default function ShareButton({ village, forecast, topAction }) {
   if (!village) return null;
 
   const handleShare = () => {
-    const balMid = forecast?.balance_ml?.mid != null ? `${forecast.balance_ml.mid} ML` : "N/A";
+    const balMid = forecast?.balance_ml?.mid != null ? `${Math.round(forecast.balance_ml.mid)} ML` : "N/A";
     const actTitle = topAction?.title || "Crop diversification & conservation";
     const currentUrl = window.location.href;
 
-    const message = `💧 Village Water Brief: ${village.name} (${village.district})
-Stress Category: ${village.stress_class.toUpperCase()} (${village.stress_score?.mid}%)
+    const message = `Village Water Brief: ${village.name} (${village.district})
+Stress Category: ${village.stress_class.toUpperCase()} (${Math.round(village.stress_score?.mid || 0)}%)
 Projected Net Balance: ${balMid}
 Top Recommended Action: ${actTitle}
 
@@ -26,7 +26,7 @@ Explore details & what-if scenarios: ${currentUrl}`;
       onClick={handleShare}
       title="Share village water summary via WhatsApp"
     >
-      <span className="share-icon">📲</span> Share Brief
+      Share Brief
     </button>
   );
 }

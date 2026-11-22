@@ -64,7 +64,6 @@ export default function Home() {
       <header className="app-header">
         <div className="header-inner">
           <div className="header-brand">
-            <div className="logo-icon">💧</div>
             <div>
               <h1 className="app-title">{STRINGS.appName}</h1>
               <p className="app-tagline">{STRINGS.tagline}</p>
@@ -106,7 +105,7 @@ export default function Home() {
             {loading && <div className="map-loading-overlay">Loading village coordinates...</div>}
             {error && (
               <div className="map-error-state">
-                <p>⚠️ {error}</p>
+                <p>Error: {error}</p>
                 <button onClick={() => handleDistrictChange(selectedDistrict)}>Retry</button>
               </div>
             )}

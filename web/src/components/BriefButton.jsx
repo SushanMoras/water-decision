@@ -16,7 +16,7 @@ export default function BriefButton({ villageId, season = "2027-pre-summer" }) {
       onClick={handleOpenPdf}
       title="Download official 1-page water security brief PDF"
     >
-      <span className="pdf-icon">📄</span> Download 1-Page Brief (PDF)
+      Download 1-Page Brief (PDF)
     </button>
   );
 }

@@ -97,31 +97,35 @@ export default function CropSwitchSlider({ village, cropsMeta = {}, baselineBala
             <div className="comparison-metric">
               <span className="comp-label">Projected Seasonal Balance</span>
               <span className="comp-value deficit">
-                <AnimatedStat value={currentBal.mid} suffix=" ML" />
+                <AnimatedStat value={Math.round(currentBal.mid)} suffix=" ML" />
               </span>
-              <span className="comp-range">Range: [{currentBal.low} to {currentBal.high} ML]</span>
+              <span className="comp-range">Range: [{Math.round(currentBal.low)} to {Math.round(currentBal.high)} ML]</span>
             </div>
             <div className="comparison-sub">
               <span>Water Draft Saved: <strong>0 ML</strong></span>
             </div>
           </div>
 
-          <div className="comparison-divider-arrow">➔</div>
+          <div className="comparison-divider-arrow">&rarr;</div>
 
           <div className="comparison-card card-after">
             <div className="comparison-badge badge-after">AFTER DIVERSIFICATION</div>
             <div className="comparison-metric">
               <span className="comp-label">Adjusted Seasonal Balance</span>
               <span className={`comp-value ${result.new_balance_ml.mid < 0 ? 'deficit' : 'surplus'}`}>
-                <AnimatedStat value={result.new_balance_ml.mid} suffix=" ML" prefix={result.new_balance_ml.mid > 0 ? "+" : ""} />
+                <AnimatedStat 
+                  value={Math.round(result.new_balance_ml.mid)} 
+                  suffix=" ML" 
+                  prefix={result.new_balance_ml.mid > 0 ? "+" : ""} 
+                />
               </span>
-              <span className="comp-range">Range: [{result.new_balance_ml.low} to {result.new_balance_ml.high} ML]</span>
+              <span className="comp-range">Range: [{Math.round(result.new_balance_ml.low)} to {Math.round(result.new_balance_ml.high)} ML]</span>
             </div>
             <div className="comparison-sub">
               <span className="highlight-saved">
-                Water Draft Saved: <strong>+<AnimatedStat value={result.water_saved_ml.mid} suffix=" ML" /></strong>
+                Water Draft Saved: <strong>+<AnimatedStat value={Math.round(result.water_saved_ml.mid)} suffix=" ML" /></strong>
               </span>
-              <span className="saved-range">Range: [{result.water_saved_ml.low} to {result.water_saved_ml.high} ML]</span>
+              <span className="saved-range">Range: [{Math.round(result.water_saved_ml.low)} to {Math.round(result.water_saved_ml.high)} ML]</span>
             </div>
           </div>
         </div>
@@ -134,13 +138,13 @@ export default function CropSwitchSlider({ village, cropsMeta = {}, baselineBala
             <span className="metric-title">Farmer Net Margin Delta (Total Village)</span>
             <span className="metric-value">
               <AnimatedStat 
-                value={result.income_change_inr.mid} 
+                value={Math.round(result.income_change_inr.mid)} 
                 prefix={result.income_change_inr.mid >= 0 ? "+" : ""} 
                 suffix=" INR" 
               />
             </span>
             <span className="metric-range">
-              Range: [{result.income_change_inr.low.toLocaleString()} to {result.income_change_inr.high.toLocaleString()} INR]
+              Range: [{Math.round(result.income_change_inr.low).toLocaleString()} to {Math.round(result.income_change_inr.high).toLocaleString()} INR]
             </span>
           </div>
 
