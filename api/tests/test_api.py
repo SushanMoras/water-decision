@@ -41,3 +41,43 @@ def test_village_not_found():
     data = res.json()
     assert "error" in data["detail"]
     assert data["detail"]["code"] == "NOT_FOUND"
+
+def test_forecast_endpoint():
+    res = client.get("/api/villages/VIL-PB-SAN-001/forecast?season=2027-pre-summer")
+    assert res.status_code == 200
+    data = res.json()
+    assert "water_level_bgl" in data
+    assert data["water_level_bgl"]["unit"] == "m"
+    assert "supply_ml" in data
+    assert "demand_ml" in data
+    assert "balance_ml" in data
+    assert "history" in data
+    assert "baseline_comparison" in data
+    assert data["baseline_comparison"]["model_beats_baseline"] is True
+    assert data["is_sample"] is True
+
+def test_forecast_not_found():
+    res = client.get("/api/villages/NON_EXISTENT/forecast")
+    assert res.status_code == 404
+
+def test_actions_endpoint():
+    res = client.get("/api/villages/VIL-PB-SAN-001/actions?season=kharif")
+    assert res.status_code == 200
+    actions = res.json()
+    assert len(actions) == 3
+    assert actions[0]["rank"] == 1
+    assert "expected_water_effect_ml" in actions[0]
+    assert actions[0]["expected_water_effect_ml"]["unit"] == "ML"
+
+def test_meta_endpoints():
+    r1 = client.get("/api/meta/sources")
+    assert r1.status_code == 200
+    sources = r1.json()
+    assert len(sources) >= 3
+
+    r2 = client.get("/api/meta/crops")
+    assert r2.status_code == 200
+    crops_meta = r2.json()
+    assert "crops" in crops_meta
+    assert "paddy" in crops_meta["crops"]
+    assert "maize" in crops_meta["crops"]

@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from app.routers import health, districts, villages
+from app.routers import health, districts, villages, forecast_actions, scenario, meta
 
 app = FastAPI(
     title="Village Water Decision Platform API",
@@ -23,6 +23,9 @@ app.include_router(health.router)
 # API routers under /api
 app.include_router(districts.router, prefix="/api")
 app.include_router(villages.router, prefix="/api")
+app.include_router(forecast_actions.router, prefix="/api")
+app.include_router(scenario.router, prefix="/api")
+app.include_router(meta.router, prefix="/api")
 
 @app.get("/")
 def root():
