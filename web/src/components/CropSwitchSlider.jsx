@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
 import { postScenario } from '../api';
+import AnimatedStat from './AnimatedStat';
 
-export default function CropSwitchSlider({ village, cropsMeta = {} }) {
+export default function CropSwitchSlider({ village, cropsMeta = {}, baselineBalance }) {
   const [fromCrop, setFromCrop] = useState("paddy");
   const [toCrop, setToCrop] = useState("maize");
   const [shiftPercent, setShiftPercent] = useState(20);
@@ -37,6 +38,8 @@ export default function CropSwitchSlider({ village, cropsMeta = {} }) {
   }, [village?.id, fromCrop, toCrop, shiftPercent]);
 
   if (!village) return null;
+
+  const currentBal = baselineBalance || { low: -1200, mid: -850, high: -450 };
 
   return (
     <div className="crop-slider-card">
@@ -86,30 +89,67 @@ export default function CropSwitchSlider({ village, cropsMeta = {} }) {
       {loading && <div className="sim-loading">Simulating hydrological & economic impact...</div>}
       {error && <div className="sim-error">{error}</div>}
 
+      {/* Before and After Layout */}
       {result && (
-        <div className="sim-results-grid">
-          <div className="metric-box water-saved">
-            <span className="metric-title">Groundwater Draft Saved</span>
-            <span className="metric-value">+{result.water_saved_ml.mid} ML</span>
-            <span className="metric-range">Range: [{result.water_saved_ml.low} to {result.water_saved_ml.high} ML]</span>
+        <div className="before-after-container">
+          <div className="comparison-card card-before">
+            <div className="comparison-badge">NOW (Status Quo)</div>
+            <div className="comparison-metric">
+              <span className="comp-label">Projected Seasonal Balance</span>
+              <span className="comp-value deficit">
+                <AnimatedStat value={currentBal.mid} suffix=" ML" />
+              </span>
+              <span className="comp-range">Range: [{currentBal.low} to {currentBal.high} ML]</span>
+            </div>
+            <div className="comparison-sub">
+              <span>Water Draft Saved: <strong>0 ML</strong></span>
+            </div>
           </div>
 
+          <div className="comparison-divider-arrow">➔</div>
+
+          <div className="comparison-card card-after">
+            <div className="comparison-badge badge-after">AFTER DIVERSIFICATION</div>
+            <div className="comparison-metric">
+              <span className="comp-label">Adjusted Seasonal Balance</span>
+              <span className={`comp-value ${result.new_balance_ml.mid < 0 ? 'deficit' : 'surplus'}`}>
+                <AnimatedStat value={result.new_balance_ml.mid} suffix=" ML" prefix={result.new_balance_ml.mid > 0 ? "+" : ""} />
+              </span>
+              <span className="comp-range">Range: [{result.new_balance_ml.low} to {result.new_balance_ml.high} ML]</span>
+            </div>
+            <div className="comparison-sub">
+              <span className="highlight-saved">
+                Water Draft Saved: <strong>+<AnimatedStat value={result.water_saved_ml.mid} suffix=" ML" /></strong>
+              </span>
+              <span className="saved-range">Range: [{result.water_saved_ml.low} to {result.water_saved_ml.high} ML]</span>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Secondary Economic Metrics */}
+      {result && (
+        <div className="sim-results-grid">
           <div className="metric-box income-change">
-            <span className="metric-title">Farmer Net Margin Delta</span>
+            <span className="metric-title">Farmer Net Margin Delta (Total Village)</span>
             <span className="metric-value">
-              {result.income_change_inr.mid >= 0 ? "+" : ""}{result.income_change_inr.mid.toLocaleString()} INR
+              <AnimatedStat 
+                value={result.income_change_inr.mid} 
+                prefix={result.income_change_inr.mid >= 0 ? "+" : ""} 
+                suffix=" INR" 
+              />
             </span>
             <span className="metric-range">
               Range: [{result.income_change_inr.low.toLocaleString()} to {result.income_change_inr.high.toLocaleString()} INR]
             </span>
           </div>
 
-          <div className="metric-box new-balance">
-            <span className="metric-title">Adjusted Net Aquifer Balance</span>
-            <span className="metric-value" style={{ color: result.new_balance_ml.mid < 0 ? "#b91c1c" : "#15803d" }}>
-              {result.new_balance_ml.mid > 0 ? "+" : ""}{result.new_balance_ml.mid} ML
+          <div className="metric-box confidence-box">
+            <span className="metric-title">Rule Evaluation Confidence</span>
+            <span className="metric-value" style={{ textTransform: 'uppercase', color: '#ff9500' }}>
+              {result.confidence.level}
             </span>
-            <span className="metric-range">Range: [{result.new_balance_ml.low} to {result.new_balance_ml.high} ML]</span>
+            <span className="metric-range">{result.sources[0]?.name || "Placeholder, awaiting expert review"}</span>
           </div>
         </div>
       )}

@@ -4,6 +4,7 @@ import ForecastChart from './ForecastChart';
 import CropSwitchSlider from './CropSwitchSlider';
 import ActionList from './ActionList';
 import BriefButton from './BriefButton';
+import ShareButton from './ShareButton';
 import { fetchForecast, fetchActions } from '../api';
 
 export default function VillagePanel({ village, cropsMeta }) {
@@ -50,8 +51,26 @@ export default function VillagePanel({ village, cropsMeta }) {
   const totalAreaText = village.area_ha != null ? `${village.area_ha} ha` : "Not available";
   const populationText = village.population != null ? Number(village.population).toLocaleString() : "Not available";
 
+  const topAction = actions.length > 0 ? actions[0] : null;
+  const balanceRangeText = forecast?.balance_ml 
+    ? `[${forecast.balance_ml.low > 0 ? "+" : ""}${forecast.balance_ml.low} to ${forecast.balance_ml.high > 0 ? "+" : ""}${forecast.balance_ml.high} ML]`
+    : "computing...";
+  const topActionTitle = topAction ? topAction.title : "Community managed aquifer recharge & micro-irrigation";
+
   return (
     <div className="village-panel-card">
+      {/* 1. Hero Card at Top */}
+      <div className="village-hero-card">
+        <div className="hero-content">
+          <p className="hero-plain-sentence">
+            <span className="hero-village-name">{village.name}</span> is currently facing{" "}
+            <span className="hero-accent-text">{village.stress_class} groundwater stress</span> with a projected seasonal balance of{" "}
+            <span className="hero-accent-text">{balanceRangeText}</span>, where the primary recommended intervention is{" "}
+            <span className="hero-accent-text">{topActionTitle}</span>.
+          </p>
+        </div>
+      </div>
+
       <div className="village-panel-header">
         <div className="header-info">
           <h2 className="village-name-title">{village.name}</h2>
@@ -70,7 +89,10 @@ export default function VillagePanel({ village, cropsMeta }) {
             </span>
             <ConfidenceBadge confidence={village.confidence} />
           </div>
-          <BriefButton villageId={village.id} season="2027-pre-summer" />
+          <div className="btn-actions-row">
+            <BriefButton villageId={village.id} season="2027-pre-summer" />
+            <ShareButton village={village} forecast={forecast} topAction={topAction} />
+          </div>
         </div>
       </div>
 
@@ -121,10 +143,10 @@ export default function VillagePanel({ village, cropsMeta }) {
                         <span className="card-val">{forecast.demand_ml?.mid} ML</span>
                         <span className="card-sub">Crop + domestic + livestock</span>
                       </div>
-                      <div className="summary-card" style={{ borderColor: forecast.balance_ml?.mid < 0 ? '#fca5a5' : '#86efac' }}>
+                      <div className="summary-card" style={{ borderColor: forecast.balance_ml?.mid < 0 ? '#ff3b30' : '#34c759' }}>
                         <span className="card-label">Net Water Balance</span>
-                        <span className="card-val" style={{ color: forecast.balance_ml?.mid < 0 ? '#b91c1c' : '#15803d' }}>
-                          {forecast.balance_ml?.mid} ML
+                        <span className="card-val" style={{ color: forecast.balance_ml?.mid < 0 ? 'var(--stress-critical)' : 'var(--stress-safe)' }}>
+                          {forecast.balance_ml?.mid > 0 ? "+" : ""}{forecast.balance_ml?.mid} ML
                         </span>
                         <span className="card-sub">
                           {forecast.balance_ml?.mid < 0 ? "Depleting overdraft" : "Sustainable buffer"}
@@ -139,7 +161,11 @@ export default function VillagePanel({ village, cropsMeta }) {
             )}
 
             {activeTab === 'whatif' && (
-              <CropSwitchSlider village={village} cropsMeta={cropsMeta} />
+              <CropSwitchSlider 
+                village={village} 
+                cropsMeta={cropsMeta} 
+                baselineBalance={forecast?.balance_ml}
+              />
             )}
 
             {activeTab === 'actions' && (
