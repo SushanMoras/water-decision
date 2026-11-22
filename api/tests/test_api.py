@@ -81,3 +81,15 @@ def test_meta_endpoints():
     assert "crops" in crops_meta
     assert "paddy" in crops_meta["crops"]
     assert "maize" in crops_meta["crops"]
+
+def test_brief_pdf_endpoint():
+    res = client.get("/api/villages/VIL-PB-SAN-001/brief.pdf?season=2027-pre-summer")
+    assert res.status_code == 200
+    assert res.headers["content-type"] == "application/pdf"
+    assert len(res.content) > 1000
+    # PDF magic bytes check
+    assert res.content.startswith(b"%PDF-")
+
+def test_brief_pdf_not_found():
+    res = client.get("/api/villages/NON_EXISTENT/brief.pdf")
+    assert res.status_code == 404
