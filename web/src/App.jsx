@@ -8,9 +8,11 @@ export default function App() {
   return (
     <div className="app-container">
       {/* Sample Data Warning Banner */}
-      <div className="sample-data-banner">
-        <span className="banner-badge">PROTOTYPE</span>
-        <span>{STRINGS.sampleBanner}</span>
+      <div className="banner-wrapper">
+        <div className="sample-data-banner">
+          <span className="banner-badge">PROTOTYPE</span>
+          <span>{STRINGS.sampleBanner}</span>
+        </div>
       </div>
 
       <Home />

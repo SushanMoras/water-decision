@@ -62,33 +62,35 @@ export default function Home() {
     <div className="home-layout">
       {/* Top Bar Navigation */}
       <header className="app-header">
-        <div className="header-brand">
-          <div className="logo-icon">💧</div>
-          <div>
-            <h1 className="app-title">{STRINGS.appName}</h1>
-            <p className="app-tagline">{STRINGS.tagline}</p>
-          </div>
-        </div>
-
-        <div className="header-controls">
-          <div className="district-selector-box">
-            <label htmlFor="district-select">{STRINGS.districtLabel}</label>
-            <select
-              id="district-select"
-              value={selectedDistrict}
-              onChange={(e) => handleDistrictChange(e.target.value)}
-              className="district-select"
-            >
-              {districts.map((d) => (
-                <option key={d} value={d}>{d}</option>
-              ))}
-            </select>
+        <div className="header-inner">
+          <div className="header-brand">
+            <div className="logo-icon">💧</div>
+            <div>
+              <h1 className="app-title">{STRINGS.appName}</h1>
+              <p className="app-tagline">{STRINGS.tagline}</p>
+            </div>
           </div>
 
-          <div className="lang-toggle-box">
-            <button type="button" className="lang-btn lang-active" aria-label="English">EN</button>
-            <button type="button" className="lang-btn lang-disabled" disabled title="Coming soon">HI</button>
-            <button type="button" className="lang-btn lang-disabled" disabled title="Coming soon">PA</button>
+          <div className="header-controls">
+            <div className="district-selector-box">
+              <label htmlFor="district-select">{STRINGS.districtLabel}</label>
+              <select
+                id="district-select"
+                value={selectedDistrict}
+                onChange={(e) => handleDistrictChange(e.target.value)}
+                className="district-select"
+              >
+                {districts.map((d) => (
+                  <option key={d} value={d}>{d}</option>
+                ))}
+              </select>
+            </div>
+
+            <div className="lang-toggle-box">
+              <button type="button" className="lang-btn lang-active" aria-label="English">EN</button>
+              <button type="button" className="lang-btn lang-disabled" disabled title="Coming soon">HI</button>
+              <button type="button" className="lang-btn lang-disabled" disabled title="Coming soon">PA</button>
+            </div>
           </div>
         </div>
       </header>
